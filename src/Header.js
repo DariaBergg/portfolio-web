@@ -23,7 +23,6 @@ function Header() {
       <h2>Daria<br />Eremeeva</h2>
       <p>/ FRONT-END <br /> DEVELOPER</p>
       </div>
-      {isNavVisible && (
         <div className={`nav-bar ${isNavVisible ? "show" : ""}`}>
       <ul>
         <li><Link to='/' className={location.pathname === "/" ? "active" : ""}>ABOUT ME</Link></li>
@@ -32,7 +31,6 @@ function Header() {
         <li><Link to='/Contact' className={location.pathname === "/Contact" ? "active" : ""}>CONTACT</Link></li>
       </ul>
       </div>
-      )}
       <div className={`container ${isNavVisible ? "change" : ""}`} onClick={toggleNavVisibility}>
         <div className="bar1"></div>
         <div className="bar2"></div>
