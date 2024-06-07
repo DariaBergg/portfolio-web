@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-web/static/css/main.c2d877c7.css",
+    "main.js": "/portfolio-web/static/js/main.43709b40.js",
+    "static/js/453.90a7b0b2.chunk.js": "/portfolio-web/static/js/453.90a7b0b2.chunk.js",
+    "static/media/foodelivery-web.png": "/portfolio-web/static/media/foodelivery-web.2d760c98e77f5322fe78.png",
+    "static/media/IMG_3222.JPG": "/portfolio-web/static/media/IMG_3222.54f00ce23e564f63ee76.JPG",
+    "static/media/task-manager-web.png": "/portfolio-web/static/media/task-manager-web.b2ad27b2b8f124fef495.png",
+    "static/media/weather-web.png": "/portfolio-web/static/media/weather-web.8f653e842d2da0f32f48.png",
+    "index.html": "/portfolio-web/index.html",
+    "main.c2d877c7.css.map": "/portfolio-web/static/css/main.c2d877c7.css.map",
+    "main.43709b40.js.map": "/portfolio-web/static/js/main.43709b40.js.map",
+    "453.90a7b0b2.chunk.js.map": "/portfolio-web/static/js/453.90a7b0b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2d877c7.css",
+    "static/js/main.43709b40.js"
+  ]
+}
