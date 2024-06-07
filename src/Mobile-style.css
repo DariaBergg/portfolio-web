@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #D8AE7E;
+  --secondary-color: white;
+  --accent-color: #D96C47;
+  --light-bg-color: #FFE0B5;
+  --font-color: black;
+  --font-family: "Montserrat", sans-serif;
+  --font-size-base: 16px;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background: var(--primary-color);
+    }
+   
+    .Main-page {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+      }
+    
+    .resume-page h2 {
+        margin-left: 100px;
+      }
+
+    .education-box,
+    .projects-box {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+      }
+
+    .education-box p,
+    .projects-box p {
+        font-size: 0.9rem;
+      } 
+
+    .right ul {
+      font-size: 0.9rem;
+    }
+    .left h3,
+    .left p {
+        text-align: center;
+    }
+    
+    .left-header h2 {
+        font-size: 1.125rem;
+        margin-top: 10px;
+    }
+    .left-header p {
+        font-size: .75rem;
+        margin-top: 30px;
+    }
+    .photo-and-name {
+        margin-top: 300px !important;
+      }
+    .photo-and-name, .info {
+        padding: 20px;
+        width: 300px;
+        margin: 0;
+      }
+
+    .greet h1 {
+        margin-top: -50px;  
+        font-size: 3.125rem !important;
+        padding-bottom: 15px;
+    }
+    .greet h3 {
+        font-size: 0.7rem;
+    }
+    .info {
+        padding-top: 70px !important;
+    }
+    .about-me {
+        font-size: 0.75rem;
+      }
+    .footer {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 400px;
+      }
+    .by {
+        margin-left: -50px;
+      }
+    .write-me {
+        text-align: left;
+        margin-left: -50px;
+      }
+
+    .write-me p {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .contact-me h1{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .form {
+        margin-top: 50px;
+        max-width: 80%;
+       }
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 1024px)  {
+    body {
+        height: 100vh;
+        background: #D8AE7E;
+    }
+    
+    .Main-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+      }
+    .photo-and-name {
+        padding: 20px;
+        margin: 0;
+        width: 80%;
+        margin-top: 400px;
+        height: 70%;
+      }
+    
+    .info {
+      padding: 20px;
+      margin: 0;
+      margin-top: 20px;
+      width: 80%;
+      min-height: 500px;
+      border: 2px solid pink;
+      overflow: scroll;
+    }
+
+    .photo-and-name img {
+      width: 30%;
+    }
+    
+    .greet h1 {
+        font-size: 3.4rem;
+    }
+
+    .greet h3 {
+        font-size: 1.25rem;
+      }
+      
+    .footer {
+        position: absolute;
+        margin-top: 500px;
+      }
+}
