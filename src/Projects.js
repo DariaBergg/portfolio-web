@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import weatherWebImage from './pics/weather-web.png'
 import TaskManagerWebImage from './pics/task-manager-web.png'
-import foodeliveryWebImage from './pics/foodelivery-web.png'
+import foodeliveryWebImage from './pics/foodelivery-web.jpg'
 
 function Projects() {
     return (

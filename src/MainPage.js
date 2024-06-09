@@ -1,7 +1,7 @@
 import React from 'react';
 // import './App.css';
 // import './Mobile-style.css';
-import photo from './pics/IMG_3222.JPG';
+import photo from './pics/IMG_3222.jpg';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 
